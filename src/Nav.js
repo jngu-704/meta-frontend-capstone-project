@@ -1,14 +1,9 @@
+import "./App.css";
+import { Routes, Route, Link } from "react-router-dom";
+import HomePage from "./Homepage";
+import BookingPage from "./BookingPage";
+
 function Nav() {
-  // const handleClick = (anchor) => () => {
-  //   const id = `${anchor}-section`;
-  //   const element = document.getElementById(id);
-  //   if (element) {
-  //     element.scrollIntoView({
-  //       behavior: "smooth",
-  //       block: "start",
-  //     });
-  //   }
-  // };
   return (
     <nav>
       <ul >
@@ -18,9 +13,11 @@ function Nav() {
         <li><a href="/#reservations">Reservations</a></li>
         <li><a href="/#order-online">Order Online</a></li>
         <li><a href="/#login">Login</a></li>
+
       </ul>
     </nav>
   );
 }
 
 export default Nav;
+
