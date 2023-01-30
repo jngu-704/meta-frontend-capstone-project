@@ -3,7 +3,9 @@ import "./font.css";
 
 function BookingPage(props) {
   return (
-    <BookingForm times={props.times} setTimes={props.setTimes}/>
+    <>
+      <BookingForm times={props.times} dispatch={props.dispatch} submitForm={props.submitForm}/>
+    </>
   );
 }
 
