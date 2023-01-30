@@ -1,7 +1,9 @@
 import "./App.css"
 
 function CustomersSay() {
-  return null;
+  return (
+    <h2>Testimonials</h2>
+  );
 }
 
 export default CustomersSay;

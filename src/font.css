@@ -1,0 +1,35 @@
+h1 {
+  font-size: 64px;
+  font-family:'Courier New', Courier, monospace;
+
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,46 @@
+.call-to-action-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto [col1-start] auto [col1-end] auto  [col2-start] auto [col2-end] auto;
+  grid-auto-rows: minmax(150px, auto);
+  background-color: #495E57;
+
+}
+
+.call-to-action-container #description {
+  grid-column: col1-start / col1-end;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  line-height: 10px;
+}
+
+.call-to-action-container h1 {
+  color: #F4CE14;
+}
+
+.call-to-action-container h2 {
+  color: white;
+}
+
+
+
+#book {
+  background-color: #F4CE14;
+  border-radius: 16px;
+  font-size: 18;
+  font-weight: bolder;
+  padding: 7px;
+  height: 40px;
+  width: 150px;
+  border: none;
+}
+
+#food {
+  grid-column: col2-start;
+  width: 250px;
+  height: 300px;
+  border-radius: 16px;
+}
+

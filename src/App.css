@@ -37,64 +37,17 @@
   }
 }
 
-header {
-  display: inline-flex;
-  text-align: center;
-}
-
 body {
   display: grid;
-}
-
-nav li {
-  display: inline;
-  list-style-type: none;
 }
 
 li a {
   padding: 14px;
 }
 
-h1 {
-  font-size: 64pt;
-  font-family:'Courier New', Courier, monospace;
 
-}
 
-h2 {
-  font-size: 40pt;
-  font-weight: normal;
-}
 
-h3 {
-  font-size: 20pt;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 18pt;
-  font-weight: bolder;
-}
-
-h5 {
-  font-size: 16pt;
-  font-weight: bold;
-}
-
-p {
-  font-size: 16pt;
-  line-height: 1.5;
-
-}
-
-img {
-  border-radius: 16;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
 
 /* @media (max-width: 700px) {
   .grid-adjustable-columns {
