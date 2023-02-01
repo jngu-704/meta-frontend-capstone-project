@@ -1,13 +1,14 @@
-import "./Header.css";
+//import "./Header.css";
 import Nav from "./Nav";
-import logo from "./assets/Logo.svg"
+import logo from "./assets/Logo.svg";
+import { HStack, Image } from "@chakra-ui/react";
 
 function Header() {
   return (
-    <header className="header-container">
-      <img src={logo} alt="Little Lemon Logo"/>
-      <Nav></Nav>
-    </header>
+    <HStack justifyContent="center" alignItems="center" alignContent="center">
+      <Image src={logo} alt="Little Lemon Logo" />
+      <Nav display="flex" flex="row" padding="10px" margin=""></Nav>
+    </HStack>
   );
 }
 
