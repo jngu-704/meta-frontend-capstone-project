@@ -1,7 +1,7 @@
-import "./font.css";
-import greek from "./assets/greek salad.jpg";
-import bruchetta from "./assets/bruchetta.svg";
-import dessert from "./assets/lemon dessert.jpg";
+import "../font.css";
+import greek from "../assets/greek salad.jpg";
+import bruchetta from "../assets/bruchetta.svg";
+import dessert from "../assets/lemon dessert.jpg";
 import SpecialsCard from "./SpecialsCard";
 import { HStack, VStack, Heading, Button, Box } from "@chakra-ui/react";
 

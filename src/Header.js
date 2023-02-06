@@ -1,4 +1,3 @@
-//import "./Header.css";
 import Nav from "./Nav";
 import logo from "./assets/Logo.svg";
 import { HStack, Image } from "@chakra-ui/react";

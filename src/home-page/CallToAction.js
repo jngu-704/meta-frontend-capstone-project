@@ -1,6 +1,6 @@
-import "./font.css";
+import "../font.css";
 import "./CallToAction.css";
-import food from "./assets/restauranfood.jpg";
+import food from "../assets/restauranfood.jpg";
 import { HStack, Box, Heading } from "@chakra-ui/react";
 
 function CallToAction() {

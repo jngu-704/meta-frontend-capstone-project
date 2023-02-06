@@ -26,7 +26,13 @@ function BookingForm(props) {
 
   return (
     <>
-      <VStack p={32} marginLeft="auto" marginRight="auto">
+      <VStack
+        p={32}
+        marginLeft="auto"
+        marginRight="auto"
+        backgroundColor="#495e57"
+        textColor="white"
+      >
         <h1>Reservation</h1>
         <form onSubmit={handleSubmit} aria-label="Booking Form">
           <label htmlFor="res-date">

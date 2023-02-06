@@ -1,6 +1,6 @@
 import CustomersSayCard from "./CustomersSayCard";
 import { HStack, Heading, VStack } from "@chakra-ui/react";
-import person from "./assets/17474.png";
+import person from "../assets/17474.png";
 
 const testimonials = [
   {

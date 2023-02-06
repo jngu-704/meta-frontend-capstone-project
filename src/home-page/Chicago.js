@@ -1,5 +1,5 @@
-import "./font.css";
-import owners from "./assets/Mario and Adrian b.jpg";
+import "../font.css";
+import owners from "../assets/Mario and Adrian b.jpg";
 import { HStack, VStack, Heading, Image } from "@chakra-ui/react";
 
 function Chicago() {

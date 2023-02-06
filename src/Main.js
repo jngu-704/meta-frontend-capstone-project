@@ -1,7 +1,7 @@
 import "./App.css";
-import HomePage from "./Homepage";
-import BookingPage from "./BookingPage";
-import ConfirmedBooking from "./ConfirmedBooking";
+import HomePage from "./home-page/Homepage";
+import BookingPage from "./booking-page/BookingPage";
+import ConfirmedBooking from "./booking-page/ConfirmedBooking";
 
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { fetchAPI, submitAPI } from "./api.js";
